@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+ background-image: url('images/tempsnip.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.links a {
+  text-decoration: none;
+color: #007bff;
+}
+
+.links .separator {
+  margin: 0 5px;
+}
+

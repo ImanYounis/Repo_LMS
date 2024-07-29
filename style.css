@@ -1,0 +1,384 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #FFF;
+  height: 70px;
+  font-family: Arial, sans-serif;
+  padding: 0 20px;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #444;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Form Fields */
+/* ... other styles ... */
+.form-container {
+  max-width: 500px; /* Adjust the maximum width as per your preference */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-container div {
+  margin: 0 auto;
+  max-width: 400px; /* Adjust the maximum width of the inner div */
+}
+
+/* ... other styles ... */
+.form-field {
+  margin-bottom: 10px;
+}
+
+.form-container label,
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.form-container span {
+  color: red;
+  font-size: 0.85em;
+}
+
+.form-container input[type="submit"],
+.form-container input[type="reset"] {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* ... other styles ... */
+
+
+
+/* Profile Section */
+.profile-container {
+  max-width: 600px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.profile-container img {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-container h4 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.profile-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.profile-container td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-container td:first-child {
+  font-weight: bold;
+  width: 150px;
+}
+
+.edit-link {
+  display: block;
+  text-align: center;
+  background-color: #007BFF;
+  color: #FFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.edit-link:hover {
+  background-color: #2d2f30;
+}
+/* ... your other styles ... */
+.product-container {
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+.cart-table th {
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+.cart-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.cart-table tr:hover {
+  background-color: #ddd;
+}
+
+.cart-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.cart-link:hover {
+  background-color: #2980b9;
+}
+
+/* ... your other styles ... */
+
+/* Styling the select dropdown */
+select {
+  appearance: none;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 8px 30px 8px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 250px; /* Change the width to your preferred size */
+  cursor: pointer;
+  position: relative; /* Add position relative to align arrow */
+}
+
+/* Styling the options */
+option {
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* Styling the select dropdown on hover */
+select:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styling the select dropdown when clicked */
+select:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the select dropdown arrow icon */
+select::-ms-expand {
+  display: none; /* Hide default arrow icon in IE10+ */
+}
+
+/* Styling the custom dropdown arrow */
+select::after {
+  content: "\25BE"; /* Unicode for down arrow symbol */
+  font-size: 16px;
+  color: #555;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none; /* Prevent the arrow from being selectable */
+}
+//--------dashboardui
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.main-content h1 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td:last-child {
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  /* Styles for your sidebar */
+  width: 200px; /* Adjust the width as needed */
+}
+
+.main-content {
+  /* Styles for your main content */
+  flex-grow: 1; /* Take remaining space */
+}
